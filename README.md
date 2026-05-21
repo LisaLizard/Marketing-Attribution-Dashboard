@@ -18,3 +18,7 @@ Generated with Python — see `generate_dataset.py`.
 - ~3% null values in `country` column
 - ~2% duplicate sessions (tracker bug simulation)
 - 3 missing days in `ad_spend` (pipeline failure simulation)
+
+## Project structure
+- `generate_dataset.py` — synthetic dataset generation script
+- `sql/data_quality_check.sql` — data quality checks before analysis
