@@ -6,7 +6,7 @@ In progress
 
 ## Data
 Synthetic dataset simulating a mobile RPG game (2024, 12 months).
-Generated with Python — see `/data/generate_dataset.py`.
+Generated with Python — see `generate_dataset.py`.
 
 ## Tables
 - `users.csv` — 5,000 users with demographics and acquisition channel
