@@ -22,3 +22,10 @@ Generated with Python — see `generate_dataset.py`.
 ## Project structure
 - `generate_dataset.py` — synthetic dataset generation script
 - `sql/data_quality_check.sql` — data quality checks before analysis
+- `sql/channel_performance.sql` — channel overview, ROI analysis, monthly trends
+
+## Key findings
+- Organic is the most profitable channel: zero spend, highest user volume
+- Email has the highest ROI among paid channels (0.06) despite smallest audience
+- TikTok attracts engaged users but has the lowest conversion to paying (3.75%)
+- All paid channels have ROI < 1 — typical for a mobile game in its first year
