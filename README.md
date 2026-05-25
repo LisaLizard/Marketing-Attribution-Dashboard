@@ -24,6 +24,7 @@ Generated with Python — see `generate_dataset.py`.
 - `sql/data_quality_check.sql` — data quality checks before analysis
 - `sql/channel_performance.sql` — channel overview, ROI analysis, monthly trends
 - `sql/attribution_comparison.sql` — last-click vs linear attribution analysis
+- `sql/player_segmentation.sql` — revenue and engagement by country, gender, device
 
 ## Key findings
 - Organic is the most profitable channel: zero spend, highest user volume
@@ -37,3 +38,8 @@ Generated with Python — see `generate_dataset.py`.
 - Organic is overvalued by 4.6ppt — users convert faster with fewer sessions 
   before purchase
 - TikTok is neutral — consistent performance across both attribution models
+- - US has the highest avg revenue per paying user ($75.28); Japan leads in conversion rate (4.90%)
+- Finland is the largest market but has the lowest conversion rate (3.25%)
+- Female players spend 46% more on skins than male players
+- Male players dominate battle pass and crystals revenue
+- Android users show slightly higher conversion despite smaller audience
