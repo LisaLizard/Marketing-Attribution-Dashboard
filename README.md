@@ -23,9 +23,17 @@ Generated with Python — see `generate_dataset.py`.
 - `generate_dataset.py` — synthetic dataset generation script
 - `sql/data_quality_check.sql` — data quality checks before analysis
 - `sql/channel_performance.sql` — channel overview, ROI analysis, monthly trends
+- `sql/attribution_comparison.sql` — last-click vs linear attribution analysis
 
 ## Key findings
 - Organic is the most profitable channel: zero spend, highest user volume
 - Email has the highest ROI among paid channels (0.06) despite smallest audience
 - TikTok attracts engaged users but has the lowest conversion to paying (3.75%)
 - All paid channels have ROI < 1 — typical for a mobile game in its first year
+- Email is undervalued by 2ppt under last-click attribution — players from email 
+  actively play before purchasing, but credit goes to other channels
+- Google Ads is undervalued by 2.5ppt — participates more in the player journey 
+  than last-click suggests
+- Organic is overvalued by 4.6ppt — users convert faster with fewer sessions 
+  before purchase
+- TikTok is neutral — consistent performance across both attribution models
